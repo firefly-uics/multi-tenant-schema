@@ -107,7 +107,7 @@
     		<column name="email">admin@email.com</column>
     		<column name="username">admin</column>
     		<column name="password">$2a$04$B5ZguV5CzzHpYvbnHr9il.N.mwF7roikUTz5Xa36evNfJ3khSAiXe</column>
-    		<column name="active">true</column>
+    		<column name="active" valueBoolean="true"/>
     	</insert>
     	<insert tableName="users" >
     		<column name="id">1</column>
@@ -115,7 +115,7 @@
     		<column name="email">user1@email.com</column>
     		<column name="username">user1</column>
     		<column name="password">$2a$04$U1FT8qjHLjaFusiCs7Y9FOaUyAssCQkfil6bCknxOgL/WWvK3z6c2</column>
-    		<column name="active">true</column>
+			<column name="active" valueBoolean="true"/>
     		<column name="id_tenant">1</column>
     	</insert>
     	<insert tableName="users" >
@@ -124,7 +124,7 @@
     		<column name="email">user2@email.com</column>
     		<column name="username">user2</column>
     		<column name="password">$2a$04$.ybthso1GKpOjjKBHzKIWeoNGfVY8ZLYWvvsr//I73onEZbq0FVpa</column>
-    		<column name="active">true</column>
+			<column name="active" valueBoolean="true"/>
     		<column name="id_tenant">2</column>
     	</insert>
     </changeSet>

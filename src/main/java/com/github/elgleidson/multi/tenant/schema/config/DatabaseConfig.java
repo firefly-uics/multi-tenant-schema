@@ -61,7 +61,7 @@ public class DatabaseConfig {
 		SpringLiquibase liquibase = new SpringLiquibase();
 		liquibase.setDataSource(dataSource);
 		liquibase.setChangeLog("classpath:/db/changelog/db.changelog-core.xml");
-		liquibase.setDefaultSchema("core");
+		liquibase.setDefaultSchema("cboard");
 		liquibase.setShouldRun(true);
 		
 		return liquibase;
