@@ -15,3 +15,6 @@ This application has 3 schemas:
 * **user2**, used by _user2_.
 
 The migration is done by Liquibase, running in a multi tenant mode (_MultiTenantSpringLiquibase_).
+
+# swagger
+[swagger api](http://localhost:8090/swagger-ui.html)
